@@ -32,6 +32,9 @@ struct ContentView: View {
                 Text("Log in anonimously")
                     .font(.largeTitle)
             }
+            
+            LogoutButton()
+                
 
         }
         
@@ -51,10 +54,10 @@ struct ContentView: View {
 }
     
     private func RealmRegister(){
-        let client = app.emailPasswordAuth
+        let client = app?.emailPasswordAuth
         let email = "st@kl.lv"
         let password = "123456"
-        client.registerUser(email: email, password: password) { (error) in
+        client?.registerUser(email: email, password: password) { (error) in
             guard error == nil else {
                 print("Failed to register: \(error!.localizedDescription)")
        //         error = "Failed to register: \(error!.localizedDescription)"
@@ -66,7 +69,7 @@ struct ContentView: View {
     }
 
 private func RealmAuth(){
-    app.login(credentials: Credentials.emailPassword(email: "st@kl.lv", password: "123456")) { (result) in
+    app?.login(credentials: Credentials.emailPassword(email: "st@kl.lv", password: "123456")) { (result) in
         switch result {
         case .failure(let error):
             print("Login failed: \(error.localizedDescription)")
@@ -78,7 +81,7 @@ private func RealmAuth(){
     
 private func RealmAuthAnonymous(){
     let anonymousCredentials = Credentials.anonymous
-    app.login(credentials: anonymousCredentials) { (result) in
+    app?.login(credentials: anonymousCredentials) { (result) in
         switch result {
         case .failure(let error):
             print("Login failed: \(error.localizedDescription)")
