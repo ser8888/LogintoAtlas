@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import RealmSwift
+
+let app = App(id: "alexdb-alukx")
+
+
 
 @main
-struct LogintoAtlasApp: App {
+struct LogintoAtlasApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             ContentView()
