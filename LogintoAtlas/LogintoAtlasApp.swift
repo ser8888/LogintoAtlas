@@ -9,7 +9,7 @@ import SwiftUI
 import RealmSwift
 
 //let app = App(id: "alexdb-alukx")
-let app: RealmSwift.App? = RealmSwift.App(id: "alexdb-alukx")
+let app: RealmSwift.App? = RealmSwift.App(id: "testing-feyyt")
 
 
 @main

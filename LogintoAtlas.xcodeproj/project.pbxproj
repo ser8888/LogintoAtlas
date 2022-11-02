@@ -16,6 +16,7 @@
 		7F7F00EF291185510072B409 /* LogOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F00EE291185510072B409 /* LogOutView.swift */; };
 		7F7F00F1291197FE0072B409 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F00F0291197FE0072B409 /* Model.swift */; };
 		7F7F00F32911AB2F0072B409 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F00F22911AB2F0072B409 /* LogInView.swift */; };
+		7F7F00F529129AC00072B409 /* SyncAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F00F429129AC00072B409 /* SyncAtlas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7F7F00EE291185510072B409 /* LogOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutView.swift; sourceTree = "<group>"; };
 		7F7F00F0291197FE0072B409 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		7F7F00F22911AB2F0072B409 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		7F7F00F429129AC00072B409 /* SyncAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncAtlas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7F7F00DB29117A5A0072B409 /* LogintoAtlasApp.swift */,
 				7F7F00EE291185510072B409 /* LogOutView.swift */,
 				7F7F00DD29117A5A0072B409 /* ContentView.swift */,
+				7F7F00F429129AC00072B409 /* SyncAtlas.swift */,
 				7F7F00F22911AB2F0072B409 /* LogInView.swift */,
 				7F7F00DF29117A5B0072B409 /* Assets.xcassets */,
 				7F7F00E129117A5B0072B409 /* Preview Content */,
@@ -161,6 +164,7 @@
 				7F7F00DE29117A5A0072B409 /* ContentView.swift in Sources */,
 				7F7F00DC29117A5A0072B409 /* LogintoAtlasApp.swift in Sources */,
 				7F7F00EF291185510072B409 /* LogOutView.swift in Sources */,
+				7F7F00F529129AC00072B409 /* SyncAtlas.swift in Sources */,
 				7F7F00F1291197FE0072B409 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
